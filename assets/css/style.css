@@ -1,13 +1,11 @@
-@font-face {
-    font-family: ;
-    src: url();
-}
-
 body {
     margin: 0;
     color: white;
 }
 
+a {
+    text-decoration: none
+}
 .box {
     display: flex;
     justify-content: center;
@@ -16,9 +14,13 @@ body {
 }
 
 .carte {
-    background-color: orange;
     padding: 1.5rem;
-    border-top-left-radius: 10px;
+    background-color: orange;
+}
+
+.carte.une {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .img img {
@@ -30,6 +32,8 @@ body {
 
 .carte.trois {
     background-color: green;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .txt {
@@ -39,6 +43,22 @@ body {
 
 .btn {
     background-color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     color: black;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 1rem 1rem;
+    text-align: center;
+}
+
+.btn.deux:hover {
+    background-color: turquoise;
+}
+
+.btn.trois:hover {
+    background-color: green ;
+}
+
+.btn.un:hover {
+    background-color: orange;
 }
