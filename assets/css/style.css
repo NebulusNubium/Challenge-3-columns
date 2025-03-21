@@ -1,0 +1,32 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+body {
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carte {
+    text-align: center;
+    background-color: orange;
+}
+
+.carte.deux {
+    background-color: turquoise;
+}
+
+.carte.trois {
+    background-color: green;
+}
+
+.txt {
+    width: 80% auto;
+    padding: 1rem;
+}
